@@ -5,13 +5,30 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
 /* Card */
-
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid cyan;
+}
+.data-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid lightgreen;
+}
 
 /* CardImage */
+.image-container {
 
+}
 
 /* CardInfo */
+.info-container {
+
+}

@@ -7,9 +7,12 @@ const CardList = props => {
     return (
         <div className="card-list">
             {props.charList.map(char => {
-                <Card 
-                    char={char}
-                />
+                return (
+                    <Card 
+                        char={char}
+                        key={char.created}
+                    />
+                );
             })}
         </div>
     )

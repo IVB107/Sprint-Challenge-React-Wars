@@ -1,12 +1,14 @@
 import React from 'react';
+import CardImage from './CardImage';
+import CardInfo from './CardInfo';
 import './CardStyles.css';
 
 const Card = props => {
 
     return (
-        <div>
+        <div className="card-container">
             <h2>{props.char.name}</h2>
-            <div>
+            <div className="data-container">
                 <CardImage />
                 <CardInfo />
             </div>
