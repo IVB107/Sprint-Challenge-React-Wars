@@ -9,8 +9,8 @@ const Card = props => {
         <div className="card-container">
             <h2>{props.char.name}</h2>
             <div className="data-container">
-                <CardImage />
-                <CardInfo />
+                <CardImage img={props.char.url}/>
+                <CardInfo info={props.char}/>
             </div>
         </div>
     )

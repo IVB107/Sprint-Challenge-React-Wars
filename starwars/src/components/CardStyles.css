@@ -1,10 +1,10 @@
 /* Card List */
 .card-list {
-    border: 2px solid red;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
     /* background-color: lightgrey; */
 }
 
@@ -14,13 +14,22 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: rgba(140, 140, 140, .5);
     border: 2px solid cyan;
+    margin: 0 15px 30px;
+    width: 45%;
+}
+.card-container h2 {
+    align-self: flex-start;
+    padding-left: 10%;
 }
 .data-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 2px solid lightgreen;
+    margin: 0 0 30px;
+    width: 80%;
 }
 
 /* CardImage */
@@ -30,5 +39,8 @@
 
 /* CardInfo */
 .info-container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
 }

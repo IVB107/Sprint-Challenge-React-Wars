@@ -5,7 +5,7 @@ const CardImage = props => {
 
     return (
         <div className="image-container">
-            <img src="" alt=""/>
+            <img src={`${props.img}`} alt=""/>
         </div>
     )
 }
