@@ -6,11 +6,12 @@ const CardList = props => {
 
     return (
         <div className="card-list">
-            {props.charList.map(char => {
+            {props.charList.map((char, index) => {
                 return (
                     <Card 
                         char={char}
                         key={char.created}
+                        index={index}
                     />
                 );
             })}
