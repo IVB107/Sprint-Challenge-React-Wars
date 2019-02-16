@@ -25,12 +25,16 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  React is a framework developed by Facebook that allows an web application to asynchronously update data on a page without having to refresh the browser. It was designed to create a better experience for both users and developers creating these applications.
 
 - [ ] What does it mean to _think_ in react?
+  "Thinking in React" is the idea of planning out the structure of your React application and its components, and determining what the component heirarchy will be and which components should receive State. A good approach to this concept is to take a mockup/design/sketch and break each section down into modular components. This helps keep your project and code clean and organized before you begin building.
 
 - [ ] Describe state.
-
+  State is an immutable object responsible for holding the data of your application. It is your app's quarterback and passes the data down (not up) to components when it is called upon.
+  
 - [ ] Describe props.
+  If State is your quarterback, props is the ball. Props is an object with immutable properties containing the data from State which components receive so that users can view/interact with it.
 
 ## Project Set Up
 

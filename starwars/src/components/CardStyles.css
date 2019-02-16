@@ -1,0 +1,65 @@
+/* Card List */
+.card-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    /* background-color: lightgrey; */
+}
+
+/* Card */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(140, 140, 140, .5);
+    border: 2px solid darkgoldenrod;
+    margin: 0 15px 30px;
+    width: 46%;
+}
+.card-container h2 {
+    align-self: flex-start;
+    padding-left: 5%;
+}
+.data-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 2px solid lightgreen; */
+    margin: 0 0 30px;
+    width: 90%;
+}
+
+/* CardImage */
+.image-container {
+    max-width: 50%;
+}
+.image-container img {
+    width: 100%;
+}
+
+/* CardInfo */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    text-decoration: none;
+    width: 100%;
+    padding: 0 10%;
+}
+.info-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.info-container ul li {
+    margin: 6px 0;
+    align-self: flex-start
+}
